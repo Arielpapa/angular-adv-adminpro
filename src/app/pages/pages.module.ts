@@ -15,6 +15,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 //Modulos
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from '../components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 //import { AppRoutingModule } from '../app-routing.module';
 
 
@@ -25,6 +26,7 @@ import { ComponentsModule } from '../components/components.module';
     Grafica1Component,
     PagesComponent,
     DashboardComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,
@@ -40,6 +42,7 @@ import { ComponentsModule } from '../components/components.module';
     Grafica1Component,
     PagesComponent,
     DashboardComponent,
+    AccountSettingsComponent,
   ]
 })
 export class PagesModule { }
